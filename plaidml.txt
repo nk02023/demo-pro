@@ -1,0 +1,24 @@
+https://chatgpt.com/share/c7419d70-399e-485c-a1e6-9a18e40f8187
+
+
+Installing PlaidML:
+Install Python and Virtual Environment:
+Ensure you have Python installed. It’s recommended to use a virtual environment.
+
+bash
+Copy code
+python -m venv plaidml-env
+source plaidml-env/bin/activate  # On Windows: plaidml-env\Scripts\activate
+Install PlaidML:
+Install PlaidML and its Keras backend.
+
+bash
+Copy code
+pip install plaidml-keras plaidbench
+Configure PlaidML:
+Configure PlaidML to use your AMD GPU.
+
+bash
+Copy code
+plaidml-setup
+Follow the prompts to select your GPU.
